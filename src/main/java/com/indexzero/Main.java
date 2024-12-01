@@ -16,13 +16,19 @@ public class Main {
         System.out.println("VLESS URL Builder");
         System.out.println("Source Code: https://github.com/indx0/Vless-Url-Builder");
 
+
         String jsonString = "";
 
         try {
             jsonString = FileUtils.readFromFile(args[0]);
         }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("No File Path Specified");
+            return;
+        }
         catch (Exception e) {
             System.out.println("Something went wrong when reading the file.");
+            return;
         }
 
 
@@ -48,6 +54,7 @@ public class Main {
         }
         catch (JsonParseException e) {
             System.out.println("File is not a valid JSON");
+            return;
         }
     }
 }
