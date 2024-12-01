@@ -48,7 +48,7 @@ public class Main {
             String sni = streamSettings.getAsJsonObject().get("realitySettings").getAsJsonObject().get("serverName").getAsString();
             String sid = streamSettings.getAsJsonObject().get("realitySettings").getAsJsonObject().get("shortId").getAsString();
 
-            String url = String.format("vless://%s@%s?flow=%s&type=%s&security=%s&fp=%s&sni=%s&pbk=%s&sid%s", id, addressAndPort, flow, type, security, fp, sni, pbk, sid);
+            String url = String.format("vless://%s@%s?flow=%s&type=%s&security=%s&fp=%s&sni=%s&pbk=%s&sid=%s", id, addressAndPort, flow, type, security, fp, sni, pbk, sid);
 
             System.out.printf("\nYour URL is: %s%n", url);
         }
