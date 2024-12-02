@@ -1,5 +1,5 @@
 # Vless Url Builder
-Utility for converting Xray JSON to Vless URLs. 
+Utility for conveting Amnezia XRay JSON to URLs with vless:// format
 
 ## Usage
 ```
