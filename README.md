@@ -22,11 +22,11 @@ Ensure that Java 21 or higher is installed before running this utility.
     <td>
       <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Apple-Dark.svg" height="30px" width="30px"></img>
     </td>
-  <td>
-      <a href="https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.5%2B11/OpenJDK21U-jre_x64_mac_hotspot_21.0.5_11.pkg">x64</a>
-    </td>
     <td>
       <a href="https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.5%2B11/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.5_11.pkg">aarch64 (ARM)</a>
+    </td>
+    <td>
+      <a href="https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.5%2B11/OpenJDK21U-jre_x64_mac_hotspot_21.0.5_11.pkg">x64</a>
     </td>
   </tr>
   <tr>
