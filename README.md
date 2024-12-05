@@ -1,9 +1,8 @@
 # Amnezia Vless URL Builder
-Utility for conveting Amnezia XRay JSON to URLs with vless:// format
+A utility for converting Amnezia XRay JSON to `vless://` format URLs.
 
 ## Installation
-Minimal Java version is 21. Before running, you should install Java 21 JRE or JDK. 
-I recommend using Eclipse Temurin on Windows/Mac and Java from your distro's repository on Linux.
+Ensure that Java 21 or higher is installed before running this utility.
 
 ### JRE Download Links
 
@@ -42,3 +41,4 @@ I recommend using Eclipse Temurin on Windows/Mac and Java from your distro's rep
 ```
 java -jar ./Vless-Url-Builder.jar /path/to/file.json
 ```
+Replace /path/to/file.json with the path to your XRay JSON file.
