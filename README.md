@@ -1,4 +1,4 @@
-# Amnezia Vless URL Builder
+# AmneziaConverter
 A utility for converting Amnezia XRay JSON to `vless://` format URLs.
 
 ## Installation
